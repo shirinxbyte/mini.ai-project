@@ -1,5 +1,5 @@
 
-#🎧 Video Transcription Tool
+🎧 Video Transcription Tool
 
 I found myself wondering what to code next — then it hit me. Last week, I built a simple program that generates transcriptions from audio files. I figured, why not improve it and share it with everyone?
 
