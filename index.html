@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image to PDF Converter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Image to PDF Converter</h1>
+        <input type="file" id="imageInput" accept="image/*" multiple>
+        <div id="imagePreview"></div>
+        <div class="options">
+            <label for="pageSpread">Page Spread:</label>
+            <select id="pageSpread">
+                <option value="single">Single Page</option>
+                <option value="double">Double Page</option>
+            </select>
+            <label for="borderSize">Border Size:</label>
+            <input type="number" id="borderSize" min="0" max="50" value="0">
+            <label for="borderColor">Border Color:</label>
+            <input type="color" id="borderColor" value="#000000">
+        </div>
+        <button id="convertBtn">Convert to PDF</button>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
