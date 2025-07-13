@@ -10,7 +10,7 @@ for me but also for others who are exploring AI and programming.
 
 
 ## ✨ Features
-- Customizable borders & margins
+- Customizable borders & margins 
 - Drag & drop interface
 - Page orientation controls
 
